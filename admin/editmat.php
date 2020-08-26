@@ -32,10 +32,10 @@ if(isset($_POST['edit'])){
   <title>GI Dept</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="icon" href="/vpn_ssl_app/static/img/fav.png" type="image/x-icon">
-  <link rel="stylesheet" href="/vpn_ssl_app/static/css/bootstrap.min.css">
-  <script src="/vpn_ssl_app/static/js/jquery.min.js"></script>
-  <script src="/vpn_ssl_app/static/js/bootstrap.min.js"></script>
+  <link rel="icon" href="/Student-Note-Management/static/img/fav.png" type="image/x-icon">
+  <link rel="stylesheet" href="/Student-Note-Management/static/css/bootstrap.min.css">
+  <script src="/Student-Note-Management/static/js/jquery.min.js"></script>
+  <script src="/Student-Note-Management/static/js/bootstrap.min.js"></script>
 </head>
 <body>
 
