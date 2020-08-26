@@ -1,7 +1,7 @@
 <?php
 include("../include/db.php");
 if(!isset($_COOKIE['auth'])){
-    header("location: /vpn_ssl_app/signin.php");
+    header("location: /Student-Note-Management/signin.php");
 }else{
   include("../include/admin.php");
 }
@@ -31,11 +31,11 @@ if(isset($_POST['add'])){
   <title>GI Dept</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="icon" href="/vpn_ssl_app/static/img/fav.png" type="image/x-icon">
-  <link rel="stylesheet" href="/vpn_ssl_app/static/css/bootstrap.min.css">
-  <link rel="stylesheet" href="/vpn_ssl_app/static/css/dataTables.bootstrap.min.css">
-  <script src="/vpn_ssl_app/static/js/jquery.min.js"></script>
-  <script src="/vpn_ssl_app/static/js/bootstrap.min.js"></script>
+  <link rel="icon" href="/Student-Note-Management/static/img/fav.png" type="image/x-icon">
+  <link rel="stylesheet" href="/Student-Note-Management/static/css/bootstrap.min.css">
+  <link rel="stylesheet" href="/Student-Note-Management/static/css/dataTables.bootstrap.min.css">
+  <script src="/Student-Note-Management/static/js/jquery.min.js"></script>
+  <script src="/Student-Note-Management/static/js/bootstrap.min.js"></script>
 </head>
 <body>
 
@@ -59,7 +59,7 @@ if(isset($_POST['add'])){
       </ul>
       <ul class="nav navbar-nav navbar-right">
         <li><a href="#"><span class="glyphicon glyphicon-user"></span> <?php echo $_COOKIE['name']; ?></a></li>
-        <li><a href="/vpn_ssl_app/logout.php"><span class="glyphicon glyphicon-log-out"></span> Logout</a></li>
+        <li><a href="/Student-Note-Management/logout.php"><span class="glyphicon glyphicon-log-out"></span> Logout</a></li>
       </ul>
     </div>
   </div>
@@ -192,9 +192,9 @@ if(isset($_POST['add'])){
   </table>
   <div style="height: 100px;"></div>
 </div>
-<script src="/vpn_ssl_app/static/js/jquery.js"></script>
-<script src="/vpn_ssl_app/static/js/jquery.dataTables.min.js"></script>
-<script src="/vpn_ssl_app/static/js/dataTables.bootstrap.min.js"></script>
+<script src="/Student-Note-Management/static/js/jquery.js"></script>
+<script src="/Student-Note-Management/static/js/jquery.dataTables.min.js"></script>
+<script src="/Student-Note-Management/static/js/dataTables.bootstrap.min.js"></script>
 <script>
   $('#mydata').dataTable();
 </script>

@@ -1,7 +1,7 @@
 <?php
 include("../include/db.php");
 if(!isset($_COOKIE['auth'])){
-    header("location: /vpn_ssl_app/signin.php");
+    header("location: /Student-Note-Management/signin.php");
 }else{
   include("../include/admin.php");
 }
@@ -59,7 +59,7 @@ if(isset($_POST['edit'])){
       </ul>
       <ul class="nav navbar-nav navbar-right">
         <li><a href="#"><span class="glyphicon glyphicon-user"></span> <?php echo $_COOKIE['name']; ?></a></li>
-        <li><a href="/vpn_ssl_app/logout.php"><span class="glyphicon glyphicon-log-out"></span> Logout</a></li>
+        <li><a href="/Student-Note-Management/logout.php"><span class="glyphicon glyphicon-log-out"></span> Logout</a></li>
       </ul>
     </div>
   </div>
